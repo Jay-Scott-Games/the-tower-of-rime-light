@@ -1,0 +1,50 @@
+/* Custom Fonts */
+@font-face {
+  font-family: "Crimson"; /* Replace the font-name with the name of the font you want to use */
+  src: url("fonts/Crimson-Roman.otf") format('opentype'); /* Change the file path in the url to the correct path for your directory and make sure the format is correct for the file type */
+}
+
+
+@font-face {
+  font-family: "Crimson"; /* Replace the font-name with the name of the f>*/
+  src: url("fonts/Crimson-Bold.otf") format('opentype'); /* Change the file pa>*/
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Crimson"; /* Replace the font-name with the name of the f>>*/
+  src: url("fonts/Crimson-Italic.otf") format('opentype'); /* Change the file pa>>*/
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Bardolatry"; /* Replace the font-name with the name of the font you want to use */
+  src: url("fonts/Bardolatry.otf") format('opentype'); /* Change the file path in the url to the correct path for your dire> */
+}
+
+.torl div.journal-page-content h1,
+.torl section.journal-entry-content h1,
+.torl div.journal-page-content h1 .title,
+.torl section.journal-entry-content h1 .title {
+  font-family: "Bardolatry";
+  font-size: 1.9em;
+  text-align: left;
+  padding: 0 0 0 5px;
+}
+
+.torl div.journal-page-content p,
+.torl section.journal-entry-content p,
+.torl div.journal-page-content li,
+.torl section.journal-entry-content li {
+  font-family: "Crimson";
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+
+/*
+.torl p {
+  font-family: "Crimson-Roman";
+}
+*/
+
